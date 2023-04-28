@@ -1,0 +1,1 @@
+console.log("Scripts chargés depuis script2.js")

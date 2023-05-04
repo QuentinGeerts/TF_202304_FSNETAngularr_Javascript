@@ -35,4 +35,7 @@ btnSend.addEventListener('click', (e) => {
     // Logique ...
 
     document.getElementById('info').innerText = 'Envoi de données : ' + inputFirstname.value + ' ' + inputLastname.value;
+
+    form.reset();
+    form['firstname'].focus();
 });

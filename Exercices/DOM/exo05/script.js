@@ -1,6 +1,7 @@
 
 window.onload = () => {
-    displayHours();
+    // displayHours();
+    setInterval(displayHours, 100);
     displayDate();
 
     function displayHours () {
@@ -30,7 +31,7 @@ window.onload = () => {
 
         dh.innerText = formattedHours;
 
-        setTimeout(displayHours, 100);
+        // setTimeout(displayHours, 100);
     }
 
     function displayDate () {
